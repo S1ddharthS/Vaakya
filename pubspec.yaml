@@ -1,0 +1,57 @@
+name: vaakya
+description: "Vaakya — AI-powered learning platform"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.5+1
+
+  # Voice Engine
+  speech_to_text: ^7.3.0
+  flutter_tts: ^4.2.5
+  permission_handler: ^11.4.0
+
+  # Networking
+  http: ^1.6.0
+
+  # Offline Cache
+  sqflite: ^2.4.2+1
+  path_provider: ^2.1.5
+  connectivity_plus: ^7.1.1
+
+  # Camera / Vision
+  image_picker: ^1.2.2
+  url_launcher: ^6.3.2
+  file_picker: ^8.1.6
+
+  # UI / Animations
+  flutter_animate: ^4.5.2
+  shimmer: ^3.0.0
+  google_fonts: ^8.1.0
+
+  # Supabase
+  supabase_flutter: ^2.12.4
+  shared_preferences: ^2.5.5
+  confetti: ^0.8.0
+  path: ^1.9.1
+  pdf: ^3.11.1
+  share_plus: ^10.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
